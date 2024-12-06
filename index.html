@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Post App</title>
+</head>
+<body>
+    <div class="app-container">
+        <h1> Any write And Post App</h1>
+        <div class="post-form">
+            <textarea id="postContent" placeholder="Write something..."></textarea>
+            <input type="file" id="imageUpload" accept="image/*">
+            <button onclick="addPost()">Add Post</button>
+            <button class="clear-all-button" onclick="clearAllPosts()">Clear All</button>
+        </div>
+        <div class="posts-container" id="postsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
